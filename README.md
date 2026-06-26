@@ -78,17 +78,6 @@ source create_project.tcl
 4. Generate the bitstream.
 5. Program the Basys3 board.
 
-### Command-Line Batch Mode
-
-```bash
-vivado -mode batch -source create_project.tcl
-```
-
-## Notes
-
-- The source design is written in Verilog.
-- The design is intended for the Basys3 FPGA board.
-- The `docs/` folder is ignored in version control so local reports and generated documents stay out of future commits.
 
 ## Authors
 
